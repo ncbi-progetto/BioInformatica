@@ -22,6 +22,12 @@ namespace ProvaMetodi
             Console.WriteLine(". ");
             int posizione = ClasseBioInformatica.Metodi.CarattereDiverso();
             Console.WriteLine("la differenza si trova al carattere: " + posizione);
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            string porzioneuguale = ClasseBioInformatica.Metodi.PorzioneUguale();
+            Console.Write("la porzione uguale è : ");
+            Console.WriteLine(porzioneuguale);
         }
     }
 }

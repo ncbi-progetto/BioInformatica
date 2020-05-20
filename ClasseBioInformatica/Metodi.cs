@@ -60,5 +60,19 @@ namespace ClasseBioInformatica
             return -1;
         }
 
+        //PORZIONE UGUALE
+        public static string PorzioneUguale()
+        {
+            string sensibile = Metodi.LetturaSensibile();
+            string resistente = Metodi.LetturaResistente();
+            long posizione = Metodi.CarattereDiverso();
+            string uguale = "";
+            for (int i = 0; i < posizione; i++)
+            {
+                uguale += sensibile[i];
+            }
+            return uguale;
+        }
+
     }
 }
