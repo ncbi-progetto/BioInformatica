@@ -28,6 +28,12 @@ namespace ProvaMetodi
             string porzioneuguale = ClasseBioInformatica.Metodi.PorzioneUguale();
             Console.Write("la porzione uguale è : ");
             Console.WriteLine(porzioneuguale);
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            int differenze = ClasseBioInformatica.Metodi.DifferenzeStringhe();
+            Console.WriteLine("Le differenze sono : " + differenze);
+            Console.ReadLine();
         }
     }
 }
