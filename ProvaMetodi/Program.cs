@@ -10,6 +10,18 @@ namespace ProvaMetodi
             long lunghezzas = ClasseBioInformatica.Metodi.LunghezzaSensibile();
             Console.WriteLine(sensibile);
             Console.WriteLine("è lunga " + lunghezzas);
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            string resistente = ClasseBioInformatica.Metodi.LetturaResistente();
+            long lunghezzar = ClasseBioInformatica.Metodi.LunghezzaResistente();
+            Console.WriteLine(resistente);
+            Console.WriteLine("è lunga " + lunghezzar);
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(". ");
+            int posizione = ClasseBioInformatica.Metodi.CarattereDiverso();
+            Console.WriteLine("la differenza si trova al carattere: " + posizione);
         }
     }
 }

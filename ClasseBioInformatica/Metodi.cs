@@ -47,6 +47,18 @@ namespace ClasseBioInformatica
             return resistentelength;
         }
 
+        //POSIZIONE DIFFERENZA
+        public static int CarattereDiverso()
+        {
+            string sensibile = Metodi.LetturaSensibile();
+            string resistente = Metodi.LetturaResistente();
+            for (int i = 0; i < Math.Min(sensibile.Length, resistente.Length); i++)
+            {
+                if (sensibile[i] != resistente[i])
+                    return i;
+            }
+            return -1;
+        }
 
     }
 }
